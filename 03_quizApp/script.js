@@ -1,4 +1,3 @@
-
 let question = [
     {
     question:"What is the capital of pakistan?",
@@ -70,7 +69,7 @@ let question = [
     timeLeft:60,
     marks:2
 },
-]  
+]
 let student_marks = 0
 let parent = document.getElementById('parent') 
 let box = document.getElementById('box')
@@ -138,3 +137,4 @@ let checkTimer = () => {
 }
 
 setInterval(checkTimer,1000)
+
