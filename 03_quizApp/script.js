@@ -8,58 +8,58 @@ let question = [
     marks:2
 },
     {
-    question:"What is the capital of pakistan?",
-    option:['islamabad','lahore','islamabaad','shahpur'],
-    correctAnswer:'islamabad',
+    question:"What is the capital of punjab",
+    option:['islamabad','lahore','Karachi','islampur'],
+    correctAnswer:'lahore',
     timeLeft:60,
     marks:2
 },
     {
-    question:"What is the capital of pakistan?",
-    option:['islamabad','lahore','islamabaad','shahpur'],
-    correctAnswer:'islamabad',
+    question:"What is the capital of sindh?",
+    option:['islamabad','lahore','queta','karachi'],
+    correctAnswer:'karachi',
     timeLeft:60,
     marks:2
 },
     {
-    question:"What is the capital of pakistan?",
-    option:['islamabad','lahore','islamabaad','shahpur'],
-    correctAnswer:'islamabad',
+    question:"React native is used for:",
+    option:['mob app dev','web dev','software dev','none'],
+    correctAnswer:'mob app dev',
     timeLeft:60,
     marks:2
 },
     {
-    question:"What is the capital of pakistan?",
-    option:['islamabad','lahore','islamabaad','shahpur'],
-    correctAnswer:'islamabad',
+    question:"React is used in:",
+    option:['backend','frontend','fullstack','none of above'],
+    correctAnswer:'frontend',
     timeLeft:60,
     marks:2
 },
     {
-    question:"What is the capital of pakistan?",
-    option:['islamabad','lahore','islamabaad','shahpur'],
-    correctAnswer:'islamabad',
+    question:"three programming languages:",
+    option:['HTML,CSS,JS','JS,Python,CSS','JAVA,C+,HTML','Python,JS,JAVA'],
+    correctAnswer:'Python,JS,JAVA',
     timeLeft:60,
     marks:2
 },
     {
-    question:"What is the capital of pakistan?",
-    option:['islamabad','lahore','islamabaad','shahpur'],
-    correctAnswer:'islamabad',
+    question:"tailwind is a:",
+    option:['UI library','UI interface','backend frameork','backend library'],
+    correctAnswer:'UI library',
     timeLeft:60,
     marks:2
 },
     {
-    question:"What is the capital of pakistan?",
-    option:['islamabad','lahore','islamabaad','shahpur'],
-    correctAnswer:'islamabad',
+    question:"HTML is a:",
+    option:['programming language','communication language','native language','markup language'],
+    correctAnswer:'markup language',
     timeLeft:60,
     marks:2
 },
     {
-    question:"",
-    option:['islamabad','lahore','islamabaad','shahpur'],
-    correctAnswer:'islamabad',
+    question:"Typescript is:",
+    option:['JS library','JS framework','superset of JS','none of above'],
+    correctAnswer:'superset of JS',
     timeLeft:60,
     marks:2
 },
@@ -70,8 +70,7 @@ let question = [
     timeLeft:60,
     marks:2
 },
-]
-  
+]  
 let student_marks = 0
 let parent = document.getElementById('parent') 
 let box = document.getElementById('box')
@@ -137,4 +136,5 @@ let checkTimer = () => {
     }
     displayTimer.innerHTML = 'Timer:'+timer
 }
+
 setInterval(checkTimer,1000)
