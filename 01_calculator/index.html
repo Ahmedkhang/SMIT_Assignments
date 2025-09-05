@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+      <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+</head>
+<body>
+    <div class="w-screen h-screen bg-gray-600 flex justify-center items-center">
+        <div class="w-80 max-w-7xl h-60 bg-gray-200 rounded-lg shadow-md p-6">
+            <input id="inp" type="text" class="border-1 border-black w-full p-2">
+            <div class="grid grid-cols-4 mt-4">
+                <button class="hover:bg-gray-300" onclick="values('7')">7</button>
+                <button class="hover:bg-gray-300" onclick="values('8')">8</button>
+                <button class="hover:bg-gray-300" onclick="values('9')">9</button>
+                <button class="hover:bg-gray-300" onclick="values('+')">+</button>
+                <button class="hover:bg-gray-300" onclick="values('4')">4</button>
+                <button class="hover:bg-gray-300" onclick="values('5')">5</button>
+                <button class="hover:bg-gray-300" onclick="values('6')">6</button>
+                <button class="hover:bg-gray-300" onclick="values('-')">-</button>
+                <button class="hover:bg-gray-300" onclick="values('1')">1</button>
+                <button class="hover:bg-gray-300" onclick="values('2')">2</button>
+                <button class="hover:bg-gray-300" onclick="values('3')">3</button>
+                <button class="hover:bg-gray-300" onclick="values('*')">X</button>
+                <button class="hover:bg-gray-300" onclick="values('0')">0</button>
+                <button class="hover:bg-gray-300" onclick="clearInput()">C</button>
+                <button class="hover:bg-gray-300" onclick="calculate()">=</button>
+                <button class="hover:bg-gray-300" onclick="values('/')">/</button>
+            </div>
+        </div>
+
+    </div>
+
+
+    <script src="/script.js"></script>
+</body>
+</html>
